@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="3">
+      <tr>
+        <td rowspan="5">Row 1 Cell 1</td>
+        <td>Row 1 Cell 2</td>
+        <td>Row 1 Cell 3</td>
+        <td>Row 1 Cell 4</td>
+        <td>Row 1 Cell 5</td>
+        <td>Row 1 Cell 6</td>
+        
+      </tr>
+      <tr>
+        <td colspan="5">Row 3 Cell 1</td>
+      </tr>
+    </table>
+    <div>
+        hello bangalore
+    </div>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            text-align: center;
+        
+        }
+
+    th,td{
+        padding: 8px;
+        }
+    th{
+        background-color: antiquewhite;
+      }
+    tr:nth-child(even){
+        background-color:aqua;
+    } 
+       </style>
+       <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+       </form>
+</body>
+</html>
